@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.containerFlex {
+    max-width: 1170px;
+    min-width: 320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.clearfix:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.reset {
+    padding-left: 0;
+    margin-top: 0;
+}
